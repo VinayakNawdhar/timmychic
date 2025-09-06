@@ -15,14 +15,14 @@ const playfair = Playfair_Display({
 
 export const metadata = {
   title: "Timmy Chic™ | Official",
-  description: "Ecommerce for fashion",
+  description: "Timeless sophistication and modern elegance.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.png" sizes="any" />
       </head>
       <body className={`${poppins.variable} ${playfair.variable} antialiased`}>
         {children}
